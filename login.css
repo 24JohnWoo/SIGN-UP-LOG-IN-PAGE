@@ -1,0 +1,54 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-image: url("../chess.jpg");
+    height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.LOGIN {
+    height: 50%;
+    width: 20%;
+    background-color: rgb(7, 40, 195, 0.8);
+    padding: inherit;
+    z-index: 1;
+    margin: 10% auto 10% 40%;
+    border: 1px solid black;
+    align-content: space-around;
+}
+
+.username input {
+    font-family: 'Roboto', sans-serif;
+    outline: 1;
+    background: #ffffff;
+    padding: 15px;
+    border: 0;
+    margin: 0 0 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.loginbox button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+    margin: 5% auto 5% 40%;
+    background: rgb(32, 32, 32);
+}
+.loginbox p {
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.username {
+    margin: 10% auto 10% 15%;
+}
